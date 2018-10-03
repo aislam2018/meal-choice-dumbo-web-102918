@@ -1,5 +1,5 @@
 
 def meal_choice(options = "meat")
-  puts "#{options}"
+  return options
 end
 meal_choice("vegan");
